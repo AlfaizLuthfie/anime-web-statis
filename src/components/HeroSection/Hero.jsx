@@ -1,4 +1,6 @@
 import heroImg from "../../assets/hero_background.jpg";
+import Badge from "../Badge/Badge";
+import PrimaryButton from "../Button/PrimaryButton";
 import FavoriteAnime from "./Favorite";
 
 const dataAnime = [
@@ -6,7 +8,7 @@ const dataAnime = [
     title: "Kimetsu no Yaiba Demon Slayer",
     episode: "26 Episode",
     genre: ["Shounen", "Action"],
-    image: heroImg
+    image: heroImg,
   },
 ];
 
@@ -16,32 +18,40 @@ function Hero() {
   return (
     <>
       <div
-        className="h-screen bg-cover bg-center relative"
+        className="h-screen bg-cover bg-center relative flex flex-col justify-center"
         style={{ backgroundImage: `url(${anime.image})` }}
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
-        <div className="absolute top-2/3 transform -translate-y-1/2 container ml-16">
-          <h1 className="text-white text-5xl font-semibold uppercase mb-2 cursor-default w-1/2">
-            {anime.title}
-          </h1>
-          <div className="flex gap-1 mt-2">
-            <p className="text-white border border-white w-24 rounded-lg text-xs pl-2 py-1 hover:bg-primary hover:border-primary cursor-pointer">
-              {anime.episode}
-            </p>
-            {anime.genre.map((genre, index) => (
-              <p key={index} className="text-white border border-white w-24 rounded-lg text-xs pl-2 py-1 hover:bg-primary hover:border-primary cursor-pointer">
-                {genre}
-              </p>
-            ))}
-          </div>
-          <button className="bg-primary text-white px-4 py-2 rounded-2xl mt-8 text-sm hover:bg-primary/90">
-            Tonton Sekarang
-          </button>
+        {/* <div className="absolute top-1/2 lg:top-2/3 transform -translate-y-1/2 container lg:ml-16"> */}
+        <div className="z-10 relative container">
 
           <div>
-            <FavoriteAnime></FavoriteAnime>
+            <h1 className="text-white text-4xl lg:text-5xl font-semibold uppercase mb-2 cursor-default md:w-3/4 lg:w-1/2">
+              {anime.title}
+            </h1>
+
+            <div className="flex gap-1 mt-2">
+              <p className="text-white border border-white w-24 rounded-lg text-xs pl-2 py-1 hover:bg-primary hover:border-primary cursor-pointer">
+                {anime.episode}
+              </p>
+              {anime.genre.map((genre, index) => (
+                <Badge key={index}>{genre}</Badge>
+              ))}
+            </div>
+
+            <PrimaryButton>Tonton Sekarang</PrimaryButton>
           </div>
         </div>
+
+        <div className="flex justify-center rounded-lg mt-8">
+          <input type="text" placeholder="Search Anime..." className="z-10 relative py-2 px-4 focus:outline-none text-sm rounded-l-lg lg:w-[33%]"/>
+          <button className="py-3 px-4 bg-primary relative z-10 text-white text-sm rounded-r-lg">Search</button>
+        </div>
+
+      </div>
+
+      <div className="container mt-4 lg:mt-10 ">
+        <FavoriteAnime></FavoriteAnime>
       </div>
     </>
   );
