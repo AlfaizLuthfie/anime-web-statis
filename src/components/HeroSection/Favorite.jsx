@@ -33,7 +33,7 @@ function FavoriteAnime() {
         <button className="text-sm">Lihat Lainnya</button>
       </div>
 
-      <div className="flex gap-8">
+      <div className="flex gap-2 md:gap-8">
         {visibleAnime.map((anime, index) => (
           <div className="w-40 rounded-xl overflow-hidden cursor-pointer " key={index}>
             <img

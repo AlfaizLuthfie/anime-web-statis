@@ -1,10 +1,10 @@
-import Landingpage from "./pages/landingpage"
+import AppRouter from "./AppRouter"
 
 function App() {
 
   return (
     <div className="font-sans">
-      <Landingpage></Landingpage>
+      <AppRouter></AppRouter>
     </div>
   )
 }

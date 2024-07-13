@@ -12,7 +12,7 @@ function Landingpage() {
     <PopulerAnime></PopulerAnime>
     </div>
     <div className="mt-6">
-    <AnimeBaru></AnimeBaru>
+    <AnimeBaru lihatLainnya={true} ></AnimeBaru>
     </div>
     </>
   )

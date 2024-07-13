@@ -1,14 +1,12 @@
-import { dataAnime } from "../../data/dataAnime";
 import { BadgeBlack } from "../Badge/Badge";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 
-function CardPopuler() {
+function CardAnime({dataAnime}) {
   return (
       <div  className="flex flex-col items-center md:flex-row md:flex-wrap md:justify-center md:gap-2 lg:gap-3">
-      {dataAnime.map((anime, index) => (
-        <>
-          <div key={index.id} className="w-[320px] h-[300px] md:w-[280px]  lg:w-[240px] border shadow-lg p-2 rounded-lg flex flex-col justify-between mt-2">
+      {dataAnime.map((anime) => (
+          <div key={anime.id} className="w-[320px] h-[300px] md:w-[280px]  lg:w-[240px] border shadow-lg p-2 rounded-lg flex flex-col justify-between mt-2">
             <div>
                 <div className="h-[170px] relative">
                 <img
@@ -44,10 +42,9 @@ function CardPopuler() {
               </div>
             </div>
           </div>
-        </>
       ))}
       </div>
   );
 }
 
-export default CardPopuler;
+export default CardAnime;
