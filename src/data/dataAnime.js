@@ -14,6 +14,108 @@ export const dataAnime = [
     {
         id: 1,
         title: "Attack on Titan Season 1",
+        episodes: [
+            {
+                episode: 1,
+                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
+            },
+            {
+                episode: 2,
+                link: "https://www.youtube.com/embed/X94HlrFvbvg?si=YOP4eow8fP-fT1Hr",
+            },
+            {
+                episode: 3,
+                link: "https://www.youtube.com/embed/w3ol3Kkjct0?si=5KcITBMAhzl2vdVl",
+            },
+            {
+                episode: 4,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 5,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 6,
+                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
+            },
+            {
+                episode: 7,
+                link: "https://www.youtube.com/embed/X94HlrFvbvg?si=YOP4eow8fP-fT1Hr",
+            },
+            {
+                episode: 8,
+                link: "https://www.youtube.com/embed/w3ol3Kkjct0?si=5KcITBMAhzl2vdVl",
+            },
+            {
+                episode: 9,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 10,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 11,
+                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
+            },
+            {
+                episode: 12,
+                link: "https://www.youtube.com/embed/X94HlrFvbvg?si=YOP4eow8fP-fT1Hr",
+            },
+            {
+                episode: 13,
+                link: "https://www.youtube.com/embed/w3ol3Kkjct0?si=5KcITBMAhzl2vdVl",
+            },
+            {
+                episode: 14,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 15,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 16,
+                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
+            },
+            {
+                episode: 17,
+                link: "https://www.youtube.com/embed/X94HlrFvbvg?si=YOP4eow8fP-fT1Hr",
+            },
+            {
+                episode: 18,
+                link: "https://www.youtube.com/embed/w3ol3Kkjct0?si=5KcITBMAhzl2vdVl",
+            },
+            {
+                episode: 19,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 20,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 21,
+                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
+            },
+            {
+                episode: 22,
+                link: "https://www.youtube.com/embed/X94HlrFvbvg?si=YOP4eow8fP-fT1Hr",
+            },
+            {
+                episode: 23,
+                link: "https://www.youtube.com/embed/w3ol3Kkjct0?si=5KcITBMAhzl2vdVl",
+            },
+            {
+                episode: 24,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 25,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+        ],
         episode: 25,
         views: 3983023,
         rating: 8.55,
@@ -28,6 +130,150 @@ export const dataAnime = [
     {
         id: 2,
         title: "Death Note",
+        episodes: [
+            {
+                episode: 1,
+                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
+            },
+            {
+                episode: 2,
+                link: "https://www.youtube.com/embed/X94HlrFvbvg?si=YOP4eow8fP-fT1Hr",
+            },
+            {
+                episode: 3,
+                link: "https://www.youtube.com/embed/w3ol3Kkjct0?si=5KcITBMAhzl2vdVl",
+            },
+            {
+                episode: 4,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 5,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },{
+                episode: 6,
+                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
+            },
+            {
+                episode: 7,
+                link: "https://www.youtube.com/embed/X94HlrFvbvg?si=YOP4eow8fP-fT1Hr",
+            },
+            {
+                episode: 8,
+                link: "https://www.youtube.com/embed/w3ol3Kkjct0?si=5KcITBMAhzl2vdVl",
+            },
+            {
+                episode: 9,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 10,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },{
+                episode: 11,
+                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
+            },
+            {
+                episode: 12,
+                link: "https://www.youtube.com/embed/X94HlrFvbvg?si=YOP4eow8fP-fT1Hr",
+            },
+            {
+                episode: 13,
+                link: "https://www.youtube.com/embed/w3ol3Kkjct0?si=5KcITBMAhzl2vdVl",
+            },
+            {
+                episode: 14,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 15,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },{
+                episode: 16,
+                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
+            },
+            {
+                episode: 17,
+                link: "https://www.youtube.com/embed/X94HlrFvbvg?si=YOP4eow8fP-fT1Hr",
+            },
+            {
+                episode: 18,
+                link: "https://www.youtube.com/embed/w3ol3Kkjct0?si=5KcITBMAhzl2vdVl",
+            },
+            {
+                episode: 19,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 20,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },{
+                episode: 21,
+                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
+            },
+            {
+                episode: 22,
+                link: "https://www.youtube.com/embed/X94HlrFvbvg?si=YOP4eow8fP-fT1Hr",
+            },
+            {
+                episode: 23,
+                link: "https://www.youtube.com/embed/w3ol3Kkjct0?si=5KcITBMAhzl2vdVl",
+            },
+            {
+                episode: 24,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 25,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },{
+                episode: 26,
+                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
+            },
+            {
+                episode: 27,
+                link: "https://www.youtube.com/embed/X94HlrFvbvg?si=YOP4eow8fP-fT1Hr",
+            },
+            {
+                episode: 28,
+                link: "https://www.youtube.com/embed/w3ol3Kkjct0?si=5KcITBMAhzl2vdVl",
+            },
+            {
+                episode: 29,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 30,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },{
+                episode: 31,
+                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
+            },
+            {
+                episode: 32,
+                link: "https://www.youtube.com/embed/X94HlrFvbvg?si=YOP4eow8fP-fT1Hr",
+            },
+            {
+                episode: 33,
+                link: "https://www.youtube.com/embed/w3ol3Kkjct0?si=5KcITBMAhzl2vdVl",
+            },
+            {
+                episode: 34,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 35,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 36,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+            {
+                episode: 37,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
+        ],
         episode: 37,
         views: 3937406,
         rating: 8.62,
@@ -169,8 +415,16 @@ export const dataAnime = [
             },
             {
                 episode: 2,
-                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
-            }
+                link: "https://www.youtube.com/embed/X94HlrFvbvg?si=YOP4eow8fP-fT1Hr",
+            },
+            {
+                episode: 3,
+                link: "https://www.youtube.com/embed/w3ol3Kkjct0?si=5KcITBMAhzl2vdVl",
+            },
+            {
+                episode: 4,
+                link: "https://www.youtube.com/embed/FztqH83FWWA?si=wAXiGO7I6LKF1fBO",
+            },
         ],
         episode: 4,
         views: 145262,

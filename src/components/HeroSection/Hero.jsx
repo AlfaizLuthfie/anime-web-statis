@@ -1,6 +1,7 @@
 import heroImg from "../../assets/hero_background.jpg";
 import {Badge} from "../Badge/Badge";
 import PrimaryButton from "../Button/PrimaryButton";
+import SearchAnime from "../SearchInput/SearchAnime";
 import FavoriteAnime from "./Favorite";
 
 const dataAnime = [
@@ -44,8 +45,7 @@ function Hero() {
         </div>
 
         <div className="flex justify-center rounded-lg mt-8">
-          <input type="text" placeholder="Search Anime..." className="z-10 relative py-2 px-4 focus:outline-none text-sm rounded-l-lg w-2/3 lg:w-[33%]"/>
-          <button className="py-3 px-4 bg-primary relative z-10 text-white text-sm rounded-r-lg">Search</button>
+          <SearchAnime></SearchAnime>
         </div>
 
       </div>

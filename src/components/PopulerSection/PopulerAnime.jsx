@@ -2,7 +2,9 @@ import { dataAnime } from "../../data/dataAnime";
 import CardAnime from "../Card/CardAnime";
 
 function PopulerAnime() {
-  const popularAnime = dataAnime.slice(0,8);
+  const sortedViews = dataAnime.sort((a, b) => b.views - a.views);
+
+  const popularAnime = sortedViews.slice(0,8);
   return (
     <div className="container">
       <div className="flex justify-between">
@@ -14,6 +16,7 @@ function PopulerAnime() {
           {popularAnime.map((anime) => (
               <CardAnime 
               key={anime.id}
+              id={anime.id}
               image={anime.image}
               title={anime.title}
               status={anime.statusComplete}

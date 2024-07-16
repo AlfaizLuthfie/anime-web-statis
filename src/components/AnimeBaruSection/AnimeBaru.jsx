@@ -3,6 +3,7 @@ import { dataAnime } from "../../data/dataAnime";
 import CardAnime from "../Card/CardAnime";
 import Pagination from "../Pagination/Pagination";
 import { Link } from "react-router-dom";
+import SearchAnime from "../SearchInput/SearchAnime";
 
 
 function AnimeBaru({ lihatLainnya = false }) {
@@ -25,6 +26,9 @@ function AnimeBaru({ lihatLainnya = false }) {
 
   return (
     <div className="container">
+      <div>
+        <SearchAnime></SearchAnime>
+      </div>
       <div className="flex justify-between">
         <h3 className="font-semibold lg:text-lg">Anime Terbaru </h3>
         <Link to="/anime-baru" className={`text-sm ${lihatLainnya ? "inline-block" : "hidden"}`}>

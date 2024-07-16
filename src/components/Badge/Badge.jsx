@@ -23,7 +23,7 @@ export function BadgePink({children}){
 export function BadgeBlack({children, active, setActiveEpisode}){
   
   return(
-    <button className={`text-sm rounded-xl px-3 py-1.5 cursor-pointer border-slate-900 border ${active ? "bg-slate-800 text-white" : "bg-white text-slate-800"}`} onClick={setActiveEpisode}>
+    <button className={`text-xs w-[100px] md:text-sm rounded-xl py-1.5 cursor-pointer border-slate-900 border ${active ? "bg-slate-800 text-white" : "bg-white text-slate-800"}`} onClick={setActiveEpisode}>
       {children}
     </button>
   )
