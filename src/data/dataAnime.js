@@ -162,7 +162,17 @@ export const dataAnime = [
     {
         id: 11,
         title: "Tower of God: Return of the Prince",
-        episode: 1,
+        episodes: [
+            {
+                episode: 1,
+                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
+            },
+            {
+                episode: 2,
+                link: "https://www.youtube.com/embed/mvHhkVCezT4?si=a4PE-NEy7THiOOIB",
+            }
+        ],
+        episode: 4,
         views: 145262,
         rating: 7.76,
         description: `Ja Wangnan sepertinya tidak bisa melewati lantai 20. Walaupun berkali-kali gagal, dia tetap menolak menyerah. Dalam perjalanannya, ia bertemu dengan karakter misterius dan kuat bernama Viole. Wangnan mengundang Viole untuk bergabung dengan tim Regularnya. Perjalanan mereka berlanjut dengan tantangan baru di setiap kesempatan.`,

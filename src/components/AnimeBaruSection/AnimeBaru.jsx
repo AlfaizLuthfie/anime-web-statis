@@ -36,6 +36,7 @@ function AnimeBaru({ lihatLainnya = false }) {
           {currentData.map((anime) => (
             <CardAnime 
             key={anime.id}
+            id={anime.id}
             image={anime.image}
             title={anime.title}
             status={anime.statusComplete}

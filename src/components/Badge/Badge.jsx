@@ -9,12 +9,22 @@ export function Badge({children}) {
   )
 }
 
-export function BadgeBlack({children}){
+export function BadgePink({children}){
   return (
     <>
         <p className="text-white bg-primary border border-primary rounded-lg text-xs px-2 py-1 cursor-pointer">
             {children}
         </p>
     </>
+  )
+}
+
+
+export function BadgeBlack({children, active, setActiveEpisode}){
+  
+  return(
+    <button className={`text-sm rounded-xl px-3 py-1.5 cursor-pointer border-slate-900 border ${active ? "bg-slate-800 text-white" : "bg-white text-slate-800"}`} onClick={setActiveEpisode}>
+      {children}
+    </button>
   )
 }

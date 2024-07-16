@@ -9,7 +9,7 @@ function AppRouter() {
       <Routes>
         <Route path="/" element={<LandingPage/>} />
         <Route path="/anime-baru" element={<AnimeTerbaru/>} />
-        <Route path="/anime" element={<AnimeDetail/>} />
+        <Route path="/anime/:id" element={<AnimeDetail/>} />
       </Routes>
     </Router>
   );
