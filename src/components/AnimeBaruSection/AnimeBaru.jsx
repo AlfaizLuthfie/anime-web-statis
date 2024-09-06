@@ -27,7 +27,7 @@ function AnimeBaru({ lihatLainnya = false }) {
   return (
     <div className="container">
       <div>
-        <SearchAnime></SearchAnime>
+        {/* <SearchAnime></SearchAnime> */}
       </div>
       <div className="flex justify-between">
         <h3 className="font-semibold lg:text-lg">Anime Terbaru </h3>
